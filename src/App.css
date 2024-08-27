@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+/* Style for the input container */
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for labels */
+label {
+  display: block;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+/* Add color to the weight input section */
+.weight-section {
+  background-color: #f0f8ff; /* Light AliceBlue background */
+  border: 1px solid #b0c4de; /* LightSteelBlue border */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Add color to the height input section */
+.height-section {
+  background-color: #fffaf0; /* Light FloralWhite background */
+  border: 1px solid #ffebcd; /* BlanchedAlmond border */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Style for the button */
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for the reload button */
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #4CAF50; /* Green border */
+  color: #4CAF50; /* Green text */
+}
+
+.btn-outline:hover {
+  background-color: #4CAF50;
+  color: white;
+}

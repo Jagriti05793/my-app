@@ -57,7 +57,7 @@ function App() {
  
   return (
     <div className="app">
-      <div className="Background"></div>git branch -d branch-name
+      <div className="Background"></div>
 
       <h2 className='center'>BMI Calculator</h2>
       <form onSubmit={calcBmi}>
@@ -83,8 +83,10 @@ function App() {
         <p>{message}</p>
       </div>
     </div>
-  </div>
+
   );
 }
  
 export default App;     
+
+
