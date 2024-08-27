@@ -57,8 +57,8 @@ function App() {
  
   return (
     <div className="app">
-      <div className="Background"></div>
-    <div className='container'>
+      <div className="Background"></div>git branch -d branch-name
+
       <h2 className='center'>BMI Calculator</h2>
       <form onSubmit={calcBmi}>
  
